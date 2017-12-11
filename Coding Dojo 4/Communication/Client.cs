@@ -63,7 +63,7 @@ namespace CD4_Client.Communication
         private void Close()
         {
             clientSocket.Close();
-            AbortInformer();
+            AbortInformer(); 
         }
     }
 }
